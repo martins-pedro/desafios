@@ -85,6 +85,12 @@ body {
     padding: 15px 50px;
     cursor: pointer;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.main-text > button:hover {
+    transform: scale(1.03);
+    background-color: hsl(158, 36%, 47%);
 }
 
 .main-text > button > i {
