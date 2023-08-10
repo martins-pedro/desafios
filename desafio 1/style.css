@@ -20,7 +20,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 500px;
-    width: 800px;
+    width: 600px;
     border-radius: 10px;
     color: hsl(228, 12%, 48%);
 }
@@ -28,12 +28,13 @@ body {
 .main-img {
     background-image: url(images/image-product-desktop.jpg);
     background-size: cover;
-    width: 100%;
+    width: 65%;
     height: 500px;
     border-radius: 10px 0 0 10px;
 }
 
 .main-text {
+    width: 50%;
     padding-left: 40px;
     display: flex;
     flex-direction: column;
@@ -55,7 +56,7 @@ body {
 
 .main-text > p {
     font-size: 14px;
-    text-align: center;
+    text-align: left;
 }
 
 .main-text .pricePromocional {
@@ -63,17 +64,29 @@ body {
     color: hsl(158, 36%, 37%);
     font-weight: bold;
     font-size: 2em;
+    display: flex;
+    gap: 20px;
 }
 
 .main-text .fullPrice {
     font-size: 14px;
     text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    align-self: center;
 }
 
 .main-text > button {
     background-color: hsl(158, 36%, 37%);
+    width: 100%;
     border: none;
+    font-size: 15px;
+    font-weight: bold;
     color: #FFF;
-    padding: 20px 50px;
+    padding: 15px 50px;
     cursor: pointer;
+    border-radius: 10px;
+}
+
+.main-text > button > i {
+    margin-right: 15px;
 }
